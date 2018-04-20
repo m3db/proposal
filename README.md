@@ -6,7 +6,7 @@ The design process for changes to M3DB is loosely modeled on the [proposal proce
 
 ## Process
 
-- [Create an issue](https://github.com/m3db/m3db/issues/new) describing the proposal.
+- [Create an issue](https://github.com/m3db/proposal/issues/new) describing the proposal.
 
 - Like any GitHub issue, a proposal issue is followed by an initial discussion about the suggestion. For Proposal issues:
 
@@ -18,9 +18,11 @@ The design process for changes to M3DB is loosely modeled on the [proposal proce
 - If a Proposal issue leads to a design doc:
  
   - The design doc should be presented as a Google Doc and must follow [the template](https://docs.google.com/document/d/1UwCaJKt2D8eRtQtmjGfljsDHBU4FBHt95h4BzIlft5g/edit#heading=h.apjxh9h6zbke).
-  - The design doc should be linked to the opened GitHub issue.
+  - The design doc should be linked from the opened GitHub issue.
   - The design doc should only allow edit access to authors of the document.
-  - Comment access should be accessible by the public.
+  - Do not create the document from a corporate G Suite account, if you wish to edit from a corporate G Suite account then first create the document from a personal Google account and grant edit access to your corporate G Suite account.
+  - Comment access should be accessible by the public, make sure this is the case by clicking "Share" and "Get shareable link" ensuring to select "Anyone with the link can comment".
+  
 
 - Once comments and revisions on the design doc wind down, there is a final discussion about the proposal.
  
@@ -31,5 +33,6 @@ The design process for changes to M3DB is loosely modeled on the [proposal proce
 
   - For now we will use [gdocs2md](https://github.com/mangini/gdocs2md) and any cleanup required must be done by hand by the author.
   - The design doc should be checked in at `design/XYZ-shortname.md`, where `XYZ` is the GitHub issue number and `shortname` is a short name (a few dash-separated words at most).
+  - The design doc should be added to the list of existing proposals in `index.md`
 
 - The author (and/or other contributors) do the work as described by the "Implementation" section of the proposal.
