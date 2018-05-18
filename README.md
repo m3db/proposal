@@ -37,3 +37,7 @@ The design process for changes to M3DB is loosely modeled on the [proposal proce
   - The design doc should be added to the list of existing proposals in `index.md`
 
 - The author (and/or other contributors) do the work as described by the "Implementation" section of the proposal.
+
+<hr>
+
+This project is released under the [Apache License, Version 2.0](LICENSE).
