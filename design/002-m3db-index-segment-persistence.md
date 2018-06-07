@@ -1,6 +1,8 @@
 # Proposal: Index Segment Flush and Bootstrap
 
-Author(s): Rob Skillington, Prateek Rungta, Jerome FroelichLast updated: Friday April 20, 2018Discussion at [github.com/m3db/proposal/issues/2](https://github.com/m3db/proposal/issues/2).
+Author(s): Rob Skillington, Prateek Rungta, Jerome Froelich
+Last updated: Friday April 20, 2018
+Discussion at [github.com/m3db/proposal/issues/2](https://github.com/m3db/proposal/issues/2).
 
 ## Abstract
 
@@ -108,7 +110,8 @@ type FileSetFileIdentifier struct {
 
 type IndexWriterSnapshotOptions struct {
 
-	SnapshotTime time.Time}
+	SnapshotTime time.Time
+}
 
 type IndexWriterOpenOptions struct {
 
