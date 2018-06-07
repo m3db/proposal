@@ -2,4 +2,4 @@
 
 ## Proposals
 
-- M3DB Index Segment Persistence [designs/002-m3db-index-persistence.md](designs/002-m3db-index-persistence.md)
+- M3DB Index Segment Persistence [design/002-m3db-index-persistence.md](design/002-m3db-index-persistence.md)
