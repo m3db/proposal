@@ -1,8 +1,8 @@
-# Proposing Changes to M3DB
+# Proposing Changes to M3
 
 ## Introduction
 
-The design process for changes to M3DB is loosely modeled on the [proposal process used by the Go project](https://github.com/golang/proposal).
+The design process for changes to M3 is loosely modeled on the [proposal process used by the Go project](https://github.com/golang/proposal).
 
 ## Process
 

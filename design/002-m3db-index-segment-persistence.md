@@ -1,4 +1,4 @@
-# Proposal: Index Segment Flush and Bootstrap
+# Proposal: M3DB Index Segment Flush and Bootstrap
 
 Author(s): Rob Skillington, Prateek Rungta, Jerome Froelich
 
@@ -12,7 +12,7 @@ This proposal outlines a change to bootstrap index segments by the database from
 
 ## Background
 
-M3DB uses [m3ninx](https://github.com/m3db/m3ninx) for reverse indexing and currently keeps segments of indexed IDs for a given time window or "block".  The database currently does not flush or bootstrap the segments that are created in memory, hence today restarting a database node will lose its index contents.
+M3DB uses [m3ninx](https://github.com/m3db/m3/tree/master/src/m3ninx) for reverse indexing and currently keeps segments of indexed IDs for a given time window or "block".  The database currently does not flush or bootstrap the segments that are created in memory, hence today restarting a database node will lose its index contents.
 
 The proposed change outlines adding flush and bootstrap capabilities for metrics indexed by the database namespace index that currently reside just as segments in memory.
 
