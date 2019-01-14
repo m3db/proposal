@@ -3,6 +3,7 @@
 Author(s): Justin Chan
 
 Last updated: Thursday, December 6, 2018
+
 Discussion at [github.com/m3db/proposal/issues/5](https://github.com/m3db/proposal/issues/5).
 
 ## Abstract
@@ -160,7 +161,7 @@ With the current design, it would be suboptimal from a memory and CPU usage pers
 
 **Use Case 1:** Backfilling
 
-There are a few reasons why User wants to be able backfill:
+There are a few reasons why a user would want to backfill metrics:
 1. To migrate from existing metrics platform to M3
 2. A processing pipeline goes down and metrics get queued up. After the pipeline recovers, there may be metrics from hours/days old to batch process
 3. After developing a new feature, there may be metrics for that feature that need to be backfilled
