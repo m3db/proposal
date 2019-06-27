@@ -45,9 +45,10 @@ The proposal requires approval from all Technical Steering Committee (the “TSC
 The current TSC members are:
 - @martin-mao (Chronosphere)
 - @mway(Uber)
-- @robskillington(Chronosphere)
-- @richardartoul(Uber)
 - @prateek(Uber)
+- @richardartoul(Uber)
+- @robskillington(Chronosphere)
+
 
 While the TSC aims to operate as a consensus-based community, if any TSC decision requires a vote to move the proposal forward, decisions by vote require a majority vote of all TSC members. 
 <hr>
