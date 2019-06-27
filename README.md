@@ -40,7 +40,7 @@ The design process for changes to M3 is loosely modeled on the [proposal process
 
 ## Approval 
 
-The proposal requires approval from all Technical Steering Committee (the “TSC”) members.
+The proposal requires approval from all Technical Steering Committee (the "TSC") members.
 
 The current TSC members are:
 - @martin-mao(Chronosphere)
