@@ -46,8 +46,8 @@ The current TSC members are:
 - @martin-mao (Chronosphere)
 - @mway (Uber)
 - @prateek (Uber)
-- @robskillington(Chronosphere)
-- @vytenis (Uber)
+- @robskillington (Chronosphere)
+- @vdarulis (Uber)
 
 
 While the TSC aims to operate as a consensus-based community, if any TSC decision requires a vote to move the proposal forward, decisions by vote require a majority vote of all TSC members. 
