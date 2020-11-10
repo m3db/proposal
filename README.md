@@ -43,11 +43,11 @@ The design process for changes to M3 is loosely modeled on the [proposal process
 The proposal requires approval from all Technical Steering Committee (the "TSC") members.
 
 The current TSC members are:
+- @jimjag (Uber)
 - @martin-mao (Chronosphere)
 - @mway (Uber)
 - @prateek (Uber)
 - @robskillington (Chronosphere)
-- @vdarulis (Uber)
 
 
 While the TSC aims to operate as a consensus-based community, if any TSC decision requires a vote to move the proposal forward, decisions by vote require a majority vote of all TSC members. 
